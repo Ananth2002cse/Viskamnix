@@ -12,10 +12,7 @@ app.use(bodyParser.json());
 app.use(cors()); 
 
 const dbConfig = {
-  host: '217.21.85.103',
-  user: 'u688548386_execprime',
-  password: 'u688548386_execprime',
-  database: 'u688548386_viskamnix'
+
 };
 
 let connection;
